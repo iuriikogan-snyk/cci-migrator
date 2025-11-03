@@ -40,34 +40,7 @@ One of the key features of the migration script is that the history from the pre
 
 ![](assets/20250619_150848_image.png)
 
-## Installing
-
-Download the latest release for your platform from the [releases page](https://github.com/z4ce/cci-migrator/releases/latest). Or use the following commands:
-
-### macOS
-
-```bash
-curl -LsSf https://github.com/z4ce/cci-migrator/releases/latest/download/cci-migrator_Darwin_x86_64.zip -o cci-migrator.zip
-unzip cci-migrator.zip
-chmod +x cci-migrator
-```
-
-### Linux
-
-```bash
-curl -LsSf https://github.com/z4ce/cci-migrator/releases/latest/download/cci-migrator_Linux_x86_64.zip -o cci-migrator.zip
-unzip cci-migrator.zip
-chmod +x cci-migrator
-```
-
-### Windows
-
-```powershell
-Invoke-WebRequest -Uri "https://github.com/z4ce/cci-migrator/releases/latest/download/cci-migrator_Windows_x86_64.zip" -OutFile "cci-migrator.zip"
-Expand-Archive -Path "cci-migrator.zip" -DestinationPath "." -Force
-```
-
-## Building
+## Building from Source
 
 To build the CLI from source:
 
