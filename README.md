@@ -1,5 +1,6 @@
-# CCI Migrator
 
+# CCI Migrator
+Forked from: snyk-labs/cci-migrator
 A CLI tool to migrate Snyk v1 API SAST ignores to Snyk's new Consistent Ignores system using the Policy API.
 
 ## Overview
